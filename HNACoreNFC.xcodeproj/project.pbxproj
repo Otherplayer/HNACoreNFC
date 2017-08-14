@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63EBB9A01F41940E00EFB549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB99F1F41940E00EFB549 /* AppDelegate.swift */; };
+		63EBB9A21F41940E00EFB549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB9A11F41940E00EFB549 /* ViewController.swift */; };
+		63EBB9A51F41940E00EFB549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB9A31F41940E00EFB549 /* Main.storyboard */; };
+		63EBB9A71F41940E00EFB549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB9A61F41940E00EFB549 /* Assets.xcassets */; };
+		63EBB9AA1F41940E00EFB549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB9A81F41940E00EFB549 /* LaunchScreen.storyboard */; };
+		63EBB9B51F41940E00EFB549 /* HNACoreNFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB9B41F41940E00EFB549 /* HNACoreNFCTests.swift */; };
+		63EBB9C01F41940E00EFB549 /* HNACoreNFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB9BF1F41940E00EFB549 /* HNACoreNFCUITests.swift */; };
+		63EBB9CE1F41942B00EFB549 /* HNANFCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB9CD1F41942B00EFB549 /* HNANFCHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63EBB9B11F41940E00EFB549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EBB9941F41940E00EFB549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EBB99B1F41940E00EFB549;
+			remoteInfo = HNACoreNFC;
+		};
+		63EBB9BC1F41940E00EFB549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EBB9941F41940E00EFB549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EBB99B1F41940E00EFB549;
+			remoteInfo = HNACoreNFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63EBB99C1F41940E00EFB549 /* HNACoreNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNACoreNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EBB99F1F41940E00EFB549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63EBB9A11F41940E00EFB549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63EBB9A41F41940E00EFB549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63EBB9A61F41940E00EFB549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63EBB9A91F41940E00EFB549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63EBB9AB1F41940E00EFB549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EBB9B01F41940E00EFB549 /* HNACoreNFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNACoreNFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EBB9B41F41940E00EFB549 /* HNACoreNFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNACoreNFCTests.swift; sourceTree = "<group>"; };
+		63EBB9B61F41940E00EFB549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EBB9BB1F41940E00EFB549 /* HNACoreNFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNACoreNFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EBB9BF1F41940E00EFB549 /* HNACoreNFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNACoreNFCUITests.swift; sourceTree = "<group>"; };
+		63EBB9C11F41940E00EFB549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EBB9CD1F41942B00EFB549 /* HNANFCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNANFCHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63EBB9991F41940E00EFB549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9AD1F41940E00EFB549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9B81F41940E00EFB549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63EBB9931F41940E00EFB549 = {
+			isa = PBXGroup;
+			children = (
+				63EBB99E1F41940E00EFB549 /* HNACoreNFC */,
+				63EBB9B31F41940E00EFB549 /* HNACoreNFCTests */,
+				63EBB9BE1F41940E00EFB549 /* HNACoreNFCUITests */,
+				63EBB99D1F41940E00EFB549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63EBB99D1F41940E00EFB549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63EBB99C1F41940E00EFB549 /* HNACoreNFC.app */,
+				63EBB9B01F41940E00EFB549 /* HNACoreNFCTests.xctest */,
+				63EBB9BB1F41940E00EFB549 /* HNACoreNFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63EBB99E1F41940E00EFB549 /* HNACoreNFC */ = {
+			isa = PBXGroup;
+			children = (
+				63EBB99F1F41940E00EFB549 /* AppDelegate.swift */,
+				63EBB9A11F41940E00EFB549 /* ViewController.swift */,
+				63EBB9A31F41940E00EFB549 /* Main.storyboard */,
+				63EBB9A61F41940E00EFB549 /* Assets.xcassets */,
+				63EBB9A81F41940E00EFB549 /* LaunchScreen.storyboard */,
+				63EBB9AB1F41940E00EFB549 /* Info.plist */,
+				63EBB9CD1F41942B00EFB549 /* HNANFCHelper.swift */,
+			);
+			path = HNACoreNFC;
+			sourceTree = "<group>";
+		};
+		63EBB9B31F41940E00EFB549 /* HNACoreNFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				63EBB9B41F41940E00EFB549 /* HNACoreNFCTests.swift */,
+				63EBB9B61F41940E00EFB549 /* Info.plist */,
+			);
+			path = HNACoreNFCTests;
+			sourceTree = "<group>";
+		};
+		63EBB9BE1F41940E00EFB549 /* HNACoreNFCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63EBB9BF1F41940E00EFB549 /* HNACoreNFCUITests.swift */,
+				63EBB9C11F41940E00EFB549 /* Info.plist */,
+			);
+			path = HNACoreNFCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63EBB99B1F41940E00EFB549 /* HNACoreNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EBB9C41F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFC" */;
+			buildPhases = (
+				63EBB9981F41940E00EFB549 /* Sources */,
+				63EBB9991F41940E00EFB549 /* Frameworks */,
+				63EBB99A1F41940E00EFB549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HNACoreNFC;
+			productName = HNACoreNFC;
+			productReference = 63EBB99C1F41940E00EFB549 /* HNACoreNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63EBB9AF1F41940E00EFB549 /* HNACoreNFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EBB9C71F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFCTests" */;
+			buildPhases = (
+				63EBB9AC1F41940E00EFB549 /* Sources */,
+				63EBB9AD1F41940E00EFB549 /* Frameworks */,
+				63EBB9AE1F41940E00EFB549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EBB9B21F41940E00EFB549 /* PBXTargetDependency */,
+			);
+			name = HNACoreNFCTests;
+			productName = HNACoreNFCTests;
+			productReference = 63EBB9B01F41940E00EFB549 /* HNACoreNFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63EBB9BA1F41940E00EFB549 /* HNACoreNFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EBB9CA1F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFCUITests" */;
+			buildPhases = (
+				63EBB9B71F41940E00EFB549 /* Sources */,
+				63EBB9B81F41940E00EFB549 /* Frameworks */,
+				63EBB9B91F41940E00EFB549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EBB9BD1F41940E00EFB549 /* PBXTargetDependency */,
+			);
+			name = HNACoreNFCUITests;
+			productName = HNACoreNFCUITests;
+			productReference = 63EBB9BB1F41940E00EFB549 /* HNACoreNFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63EBB9941F41940E00EFB549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "__无邪_";
+				TargetAttributes = {
+					63EBB99B1F41940E00EFB549 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					63EBB9AF1F41940E00EFB549 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 63EBB99B1F41940E00EFB549;
+					};
+					63EBB9BA1F41940E00EFB549 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 63EBB99B1F41940E00EFB549;
+					};
+				};
+			};
+			buildConfigurationList = 63EBB9971F41940E00EFB549 /* Build configuration list for PBXProject "HNACoreNFC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63EBB9931F41940E00EFB549;
+			productRefGroup = 63EBB99D1F41940E00EFB549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63EBB99B1F41940E00EFB549 /* HNACoreNFC */,
+				63EBB9AF1F41940E00EFB549 /* HNACoreNFCTests */,
+				63EBB9BA1F41940E00EFB549 /* HNACoreNFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63EBB99A1F41940E00EFB549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EBB9AA1F41940E00EFB549 /* LaunchScreen.storyboard in Resources */,
+				63EBB9A71F41940E00EFB549 /* Assets.xcassets in Resources */,
+				63EBB9A51F41940E00EFB549 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9AE1F41940E00EFB549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9B91F41940E00EFB549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63EBB9981F41940E00EFB549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EBB9CE1F41942B00EFB549 /* HNANFCHelper.swift in Sources */,
+				63EBB9A21F41940E00EFB549 /* ViewController.swift in Sources */,
+				63EBB9A01F41940E00EFB549 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9AC1F41940E00EFB549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EBB9B51F41940E00EFB549 /* HNACoreNFCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EBB9B71F41940E00EFB549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EBB9C01F41940E00EFB549 /* HNACoreNFCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63EBB9B21F41940E00EFB549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EBB99B1F41940E00EFB549 /* HNACoreNFC */;
+			targetProxy = 63EBB9B11F41940E00EFB549 /* PBXContainerItemProxy */;
+		};
+		63EBB9BD1F41940E00EFB549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EBB99B1F41940E00EFB549 /* HNACoreNFC */;
+			targetProxy = 63EBB9BC1F41940E00EFB549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63EBB9A31F41940E00EFB549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EBB9A41F41940E00EFB549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63EBB9A81F41940E00EFB549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EBB9A91F41940E00EFB549 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63EBB9C21F41940E00EFB549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63EBB9C31F41940E00EFB549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63EBB9C51F41940E00EFB549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.nfc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63EBB9C61F41940E00EFB549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.nfc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63EBB9C81F41940E00EFB549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hniar.HNACoreNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNACoreNFC.app/HNACoreNFC";
+			};
+			name = Debug;
+		};
+		63EBB9C91F41940E00EFB549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hniar.HNACoreNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNACoreNFC.app/HNACoreNFC";
+			};
+			name = Release;
+		};
+		63EBB9CB1F41940E00EFB549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hniar.HNACoreNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HNACoreNFC;
+			};
+			name = Debug;
+		};
+		63EBB9CC1F41940E00EFB549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ALC8X8425P;
+				INFOPLIST_FILE = HNACoreNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hniar.HNACoreNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HNACoreNFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63EBB9971F41940E00EFB549 /* Build configuration list for PBXProject "HNACoreNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EBB9C21F41940E00EFB549 /* Debug */,
+				63EBB9C31F41940E00EFB549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EBB9C41F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EBB9C51F41940E00EFB549 /* Debug */,
+				63EBB9C61F41940E00EFB549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63EBB9C71F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EBB9C81F41940E00EFB549 /* Debug */,
+				63EBB9C91F41940E00EFB549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63EBB9CA1F41940E00EFB549 /* Build configuration list for PBXNativeTarget "HNACoreNFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EBB9CB1F41940E00EFB549 /* Debug */,
+				63EBB9CC1F41940E00EFB549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63EBB9941F41940E00EFB549 /* Project object */;
+}
